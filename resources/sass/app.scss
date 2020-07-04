@@ -1,0 +1,20 @@
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+// Animate
+@import "~animate.css/animate.css";
+
+// Font Awesome
+@import '~@fortawesome/fontawesome-free/css/all.min.css';
+
+// owl.carousel
+@import "~owl.carousel/dist/assets/owl.carousel.css";
+
+// jQuery UI
+@import '~jquery-ui/themes/base/all.css';
+
+// Pages
+@import "front/base";
+@import "front/shortcodes";
+@import "front/style";
+@import "front/responsive";
