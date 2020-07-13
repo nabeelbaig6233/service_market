@@ -26,7 +26,7 @@
                                             <li class="nav-item"> <router-link class="nav-link" :to="{ name: 'front.about'}">About Us</router-link></li>
                                             <li class="nav-item"> <router-link class="nav-link" :to="{ name: 'front.contact' }">Contact Us</router-link></li>
                                         </ul>
-                                        <router-link class="btn btn-sm btn-outline-light rounded" :to="{ name: 'front.login'}">Login</router-link>
+                                        <router-link class="btn btn-sm btn-outline-light rounded" :to="{ name: 'admin.login'}">Login</router-link>
                                         <router-link class="btn btn-sm btn-outline-light rounded btn-sm-green" :to="{ name: 'front.signup'}">Free Sign Up</router-link>
                                     </div>
                                 </div>

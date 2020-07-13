@@ -651,31 +651,31 @@
         },
         created() {
             setTimeout(() => {
-                $('.owl-carousel').each( function() {
+                $('.owl-carousel').each(function () {
                     var $carousel = $(this);
                     $carousel.owlCarousel({
-                        items : $carousel.data("items"),
-                        slideBy : $carousel.data("slideby"),
-                        center : $carousel.data("center"),
-                        loop : true,
-                        margin : $carousel.data("margin"),
-                        dots : $carousel.data("dots"),
-                        nav : $carousel.data("nav"),
-                        autoplay : $carousel.data("autoplay"),
-                        autoplayTimeout : $carousel.data("autoplay-timeout"),
-                        navText : [ '<span class="fas fa-chevron-left"><span>', '<span class="fas fa-chevron-right"></span>' ],
+                        items: $carousel.data("items"),
+                        slideBy: $carousel.data("slideby"),
+                        center: $carousel.data("center"),
+                        loop: true,
+                        margin: $carousel.data("margin"),
+                        dots: $carousel.data("dots"),
+                        nav: $carousel.data("nav"),
+                        autoplay: $carousel.data("autoplay"),
+                        autoplayTimeout: $carousel.data("autoplay-timeout"),
+                        navText: ['<span class="fas fa-chevron-left"><span>', '<span class="fas fa-chevron-right"></span>'],
                         responsive: {
-                            0:{items: $carousel.data('xs-items') ? $carousel.data('xs-items') : 1},
-                            576:{items: $carousel.data('sm-items')},
-                            768:{items: $carousel.data('md-items')},
-                            1024:{items: $carousel.data('lg-items')},
-                            1200:{items: $carousel.data("items")}
+                            0: {items: $carousel.data('xs-items') ? $carousel.data('xs-items') : 1},
+                            576: {items: $carousel.data('sm-items')},
+                            768: {items: $carousel.data('md-items')},
+                            1024: {items: $carousel.data('lg-items')},
+                            1200: {items: $carousel.data("items")}
                         },
                     });
                 });
 
                 // Add background Image
-                $('[data-bg-img]').each(function() {
+                $('[data-bg-img]').each(function () {
                     $(this).css('background-image', 'url(' + $(this).data("bg-img") + ')');
                 });
 
@@ -688,7 +688,7 @@
                     live: true
                 });
                 wow.init();
-            },1)
+            }, 1)
         }
     }
 </script>

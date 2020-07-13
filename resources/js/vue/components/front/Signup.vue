@@ -27,7 +27,7 @@
                                                 <li class="nav-item"> <router-link class="nav-link darkNav" :to="{ name: 'front.about'}">About Us</router-link></li>
                                                 <li class="nav-item"> <router-link class="nav-link darkNav" :to="{ name: 'front.contact' }">Contact Us</router-link></li>
                                             </ul>
-                                            <router-link class="btn btn-sm btn-outline-dark rounded" :to="{ name: 'front.login'}">Login</router-link>
+                                            <router-link class="btn btn-sm btn-outline-dark rounded" :to="{ name: 'admin.login'}">Login</router-link>
                                         </div>
                                     </div>
 

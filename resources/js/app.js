@@ -3,17 +3,16 @@
  * includes Vue and other libraries. It is a great starting point when
  * building robust, powerful web applications using Vue and Laravel.
  */
-// Axios:
-window.axios = require('axios');
-axios.defaults.baseURL = 'http://localhost/anwarhamidphotography/public/api';
-
+// Bootstrap
 require('./bootstrap');
 
-// jQuery UI
-import $ from 'jquery';
-window.$ = window.jQuery = $;
+// Axios:
+axios.defaults.baseURL = 'http://localhost/service_market/public/api';
 
-// 5. Font Awesome:
+//  Crypto JS
+window.CryptoJS = require('crypto-js');
+
+// Font Awesome:
 require('@fortawesome/fontawesome-free/js/all.min');
 
 // owl.carousel

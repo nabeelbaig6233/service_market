@@ -77,6 +77,7 @@ class AuthController extends Controller
 
     final public function logout(): \Illuminate\Http\JsonResponse
     {
+        dd(1);
         // 1. Get All The Access Tokens & Refresh Tokens Ids From The Database
         $access_token_ids = auth()->user()->tokens->pluck('id')->toArray();
         $refresh_token_ids = DB::table('oauth_refresh_tokens')->select('id')->whereIn('access_token_id', $access_token_ids)->get()->pluck('id')->toArray();

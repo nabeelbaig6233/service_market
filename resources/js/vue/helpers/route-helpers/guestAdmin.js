@@ -8,5 +8,5 @@
 import {accessToken} from "../helpers";
 
 export const guestAdmin = (to, from, next) => {
-    accessToken() === null ? next() : next({ name: 'admin.contact.form' });
+    accessToken() === null ? next() : next({ name: 'admin.dashboard' });
 };

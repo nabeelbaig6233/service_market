@@ -131,7 +131,7 @@
                 this.loading = true;
                 this.login({...this.credentials, role: 'admin'}).then(() => {
                     this.loading = false;
-                    this.$router.push({name: 'admin.contact.form'});
+                    this.$router.push({name: 'admin.dashboard'});
                 }).catch(error => {
                     this.loading = false;
                     if (error.status === 422) {

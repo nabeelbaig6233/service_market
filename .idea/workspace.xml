@@ -2,7 +2,40 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c32b3198-5c56-4e73-b89c-112ae5e953f8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/resources/js/vue/components/admin/Dashboard.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/sass/admin.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/al_harmain_foods.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Api/Auth/AuthController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Api/Auth/AuthController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/front/images/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/front/images/logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/app.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/custom.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/admin.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/admin.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/app.js.LICENSE.txt" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/app.js.LICENSE.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/custom.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/vue.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/vue.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/vue.js.LICENSE.txt" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/vue.js.LICENSE.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mix-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/mix-manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/admin.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/admin.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/admin/custom.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/admin/custom.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/bootstrap.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/vue/components/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/vue/components/App.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/vue/components/admin/Login.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/vue/components/front/Home.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/vue/components/front/Home.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/vue/components/front/Login.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/vue/components/front/Login.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/vue/components/front/Signup.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/vue/components/front/Signup.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/vue/components/layout/front/Footer.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/vue/components/layout/front/Footer.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/vue/components/layout/front/Header.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/vue/components/layout/front/Header.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/vue/helpers/route-helpers/guestAdmin.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/vue/helpers/route-helpers/guestAdmin.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/vue/router/route-groups/admin-routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/vue/router/route-groups/admin-routes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/sass/admin/custom.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/admin/custom.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/sass/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/app.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/welcome.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack.mix.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.mix.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -140,7 +173,9 @@
     </include_path>
   </component>
   <component name="ProjectId" id="1e0z9h5TmTS0yUQKHa5f5Nwwaen" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -154,8 +189,12 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../oipdashboard" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../anwarhamidphotography" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\PhpStorm 2019.3\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
@@ -186,6 +225,9 @@
       <workItem from="1593796821181" duration="15744000" />
       <workItem from="1594054027969" duration="569000" />
       <workItem from="1594228359001" duration="1838000" />
+      <workItem from="1594405084048" duration="3991000" />
+      <workItem from="1594411606149" duration="9097000" />
+      <workItem from="1594658461496" duration="12067000" />
     </task>
     <servers />
   </component>
@@ -197,18 +239,22 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="530" y="185" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1600.860@0.0.1600.860" timestamp="1593810582857" />
-    <state x="580" y="185" key="FileChooserDialogImpl" timestamp="1594241292748">
+    <state x="580" y="185" key="FileChooserDialogImpl" timestamp="1594405116368">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="580" y="185" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1594241292748" />
+    <state x="580" y="185" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1594405116368" />
+    <state x="301" y="72" key="SettingsEditor" timestamp="1594664047913">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="301" y="72" key="SettingsEditor/0.0.1600.860@0.0.1600.860" timestamp="1594664047913" />
     <state x="664" y="327" key="WebDeployment.AddServerDialog.v.1" timestamp="1593805691265">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="664" y="327" key="WebDeployment.AddServerDialog.v.1/0.0.1600.860@0.0.1600.860" timestamp="1593805691265" />
-    <state x="476" y="254" key="com.intellij.ide.util.TipDialog" timestamp="1594229443956">
+    <state x="476" y="254" key="com.intellij.ide.util.TipDialog" timestamp="1594658767832">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="476" y="254" key="com.intellij.ide.util.TipDialog/0.0.1600.860@0.0.1600.860" timestamp="1594229443956" />
+    <state x="476" y="254" key="com.intellij.ide.util.TipDialog/0.0.1600.860@0.0.1600.860" timestamp="1594658767832" />
     <state x="463" y="180" width="672" height="678" key="search.everywhere.popup" timestamp="1593832222026">
       <screen x="0" y="0" width="1600" height="860" />
     </state>

@@ -67,9 +67,6 @@
             ...mapGetters({
                 asset: 'getAssetURL',
             }),
-            showHeader() {
-                return !this.$route.path.split('/')[3];
-            }
         },
     }
 </script>

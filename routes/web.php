@@ -26,13 +26,13 @@ Route::any('{any}', static function () {
     return view('welcome');
 })->name('home')->where('any', '.*');
 
-Route::middleware(['admin'])->prefix('admin')->namespace('admin')->group(function(){
+/*Route::middleware(['admin'])->prefix('admin')->namespace('admin')->group(function(){
     Route::get('/', 'DashboardController@index');
     Route::get('/users','UserController@index')->name('users');
     Route::get('/user/register','UserController@register')->name('user.register');
     Route::get('/user/edit/{id}','UserController@edit')->name('user.edit');
     Route::put('/user/update/{id}','UserController@update')->name('post.update');
     Route::post('/users/delete_all','UserController@delete_all')->name('users.delete_all');
-});
+});*/
 
-Route::get('/home', 'HomeController@index')->name('home');
+//Route::get('/home', 'HomeController@index')->name('home');
