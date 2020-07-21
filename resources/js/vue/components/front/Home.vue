@@ -149,7 +149,7 @@
 
                                 </div>
                                 <img :src="asset + 'assets/front/images/play-btn.png'" class="playBtn wow fadeInRight">
-                                <img :src="asset + 'assets/front/images/laptop-img-1.png'">
+                                <img :src="asset + 'assets/front/images/laptop-img-3.png'">
                             </div>
                         </div>
                     </div>

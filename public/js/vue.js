@@ -4075,7 +4075,7 @@ var render = function() {
                   _vm._v(" "),
                   _c("img", {
                     attrs: {
-                      src: _vm.asset + "assets/front/images/laptop-img-1.png"
+                      src: _vm.asset + "assets/front/images/laptop-img-3.png"
                     }
                   })
                 ])
@@ -24042,7 +24042,7 @@ __webpack_require__.r(__webpack_exports__);
 
  // 5. BaseURL ( For Redirection In Route Helpers )
 
-var baseURL = 'http://localhost/service_market/public'; // 6. Misc Helpers
+var baseURL = 'http://localhost:8080/service_market/public'; // 6. Misc Helpers
 
 
 
@@ -25708,9 +25708,9 @@ var store = new vuex__WEBPACK_IMPORTED_MODULE_1__["default"].Store({
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! D:\xampp\htdocs\service_market\resources\js\vue.js */"./resources/js/vue.js");
-__webpack_require__(/*! D:\xampp\htdocs\service_market\resources\sass\app.scss */"./resources/sass/app.scss");
-module.exports = __webpack_require__(/*! D:\xampp\htdocs\service_market\resources\sass\admin.scss */"./resources/sass/admin.scss");
+__webpack_require__(/*! C:\xampp\htdocs\service_market\resources\js\vue.js */"./resources/js/vue.js");
+__webpack_require__(/*! C:\xampp\htdocs\service_market\resources\sass\app.scss */"./resources/sass/app.scss");
+module.exports = __webpack_require__(/*! C:\xampp\htdocs\service_market\resources\sass\admin.scss */"./resources/sass/admin.scss");
 
 
 /***/ })

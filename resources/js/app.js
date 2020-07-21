@@ -7,7 +7,7 @@
 require('./bootstrap');
 
 // Axios:
-axios.defaults.baseURL = 'http://localhost/service_market/public/api';
+axios.defaults.baseURL = 'http://localhost:8080/service_market/public/api';
 
 //  Crypto JS
 window.CryptoJS = require('crypto-js');

@@ -98150,7 +98150,7 @@ module.exports = function(module) {
 __webpack_require__(/*! ./bootstrap */ "./resources/js/bootstrap.js"); // Axios:
 
 
-axios.defaults.baseURL = 'http://localhost/service_market/public/api'; //  Crypto JS
+axios.defaults.baseURL = 'http://localhost:8080/service_market/public/api'; //  Crypto JS
 
 window.CryptoJS = __webpack_require__(/*! crypto-js */ "./node_modules/crypto-js/index.js"); // Custom js
 
@@ -102419,7 +102419,7 @@ window.axios.defaults.headers.common['X-Requested-With'] = 'XMLHttpRequest';
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! D:\xampp\htdocs\service_market\resources\js\admin.js */"./resources/js/admin.js");
+module.exports = __webpack_require__(/*! C:\xampp\htdocs\service_market\resources\js\admin.js */"./resources/js/admin.js");
 
 
 /***/ }),

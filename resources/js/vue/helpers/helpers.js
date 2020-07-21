@@ -27,7 +27,7 @@ export { accessTokenExpiry } from "./local-storage-helpers/getAuthorizationData"
 export { validate } from "./validation-helpers/common-validators";
 
 // 5. BaseURL ( For Redirection In Route Helpers )
-export const baseURL = 'http://localhost/service_market/public';
+export const baseURL = 'http://localhost:8080/service_market/public';
 
 // 6. Misc Helpers
 export { trimChar } from "./misc-helpers/misc-helpers-01";
